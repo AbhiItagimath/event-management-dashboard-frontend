@@ -1,0 +1,47 @@
+/* Define theme color */
+:root {
+    --theme-color: #007bff; /* Replace with your theme color */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #343a40; /* Dark background */
+}
+
+.navbar .nav-link {
+    color: #ffffff; /* White links */
+}
+
+.navbar .nav-link:hover {
+    color: var(--theme-color); /* Optional: Theme color on hover */
+}
+
+/* Apply theme color to buttons */
+.btn-primary {
+    background-color: var(--theme-color);
+    border-color: var(--theme-color);
+}
+
+.btn-primary:hover {
+    background-color: darken(var(--theme-color), 10%);
+    border-color: darken(var(--theme-color), 10%);
+}
+
+/* Apply theme color to headers */
+h2 {
+    color: var(--theme-color);
+}
+
+/* Apply theme color to links */
+a {
+    color: var(--theme-color);
+}
+
+a:hover {
+    color: darken(var(--theme-color), 10%);
+}
+
+/* Add spacing to input fields */
+.form-control {
+    margin-bottom: 15px; /* Adjust the value as needed */
+}
